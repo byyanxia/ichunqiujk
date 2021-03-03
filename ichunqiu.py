@@ -1,3 +1,8 @@
+# -*- coding = utf-8 -*-
+# @Time :2021-02-24 6.53
+# @Author: YanXia
+# @File : maoyan.py
+# @Software: PyCharm
 import requests,schedule,time,json
 from lxml import etree
 
