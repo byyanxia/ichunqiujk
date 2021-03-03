@@ -57,7 +57,7 @@ if __name__ == '__main__':
     headers = {'content-type': 'application/x-www-form-urlencoded',
                'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:22.0) Gecko/20100101 Firefox/22.0',
                'cookie': 'aUZ1_2132_saltkey=;  ci_session=; chkphone=; Hm_lvt_2d0601bd28de7d49818249cf35d95943=; aUZ1_2132_auth=; '}
-#cookie我已找好了。你们添加下就好了
+#cookie我已找好了。你们添加下就好了。经过测试。在自己服务器里一边登入论坛，一边挂脚本比较稳定。如果关了浏览器的话，cookie会过期
 
     schedule.every(45).minutes.do(get)
     schedule.every(45).minutes.do(post)
